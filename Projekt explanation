@@ -1,0 +1,6 @@
+# Titanic-Projekt
+Hello my name is Homam Adler.
+The "Titanic Projekt" is my first official projekt.
+Its about analyzing the titanic data by making a dataframe. In my projekt you can find the most valuable information about the titanic accident.
+The projekts task is to fill the column "Age" by using a function that i created, it takes the average age of 890 persons and replace the blank lines with the right age.
+I also added some knew columns that tells us for example how big the family size is.
