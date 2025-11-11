@@ -1,0 +1,15 @@
+This project focuses on exploring and analyzing the Titanic dataset using Python and several data science libraries, including Pandas, NumPy, Seaborn, and Matplotlib.
+The main objective of the project is to understand which factors influenced passenger survival during the Titanic disaster. Through data cleaning, feature engineering, and visualization, the project demonstrates how to work with real-world data in a structured and analytical way.
+The program loads the Titanic dataset in two ways: first from Seaborn’s built-in dataset and second from a local CSV file. Once the data is loaded, 
+the script performs several preprocessing steps. It checks for missing values, fills missing ages with the mean or mode, removes the “Cabin” column due to excessive missing data, and creates a new column called “FamilySize” that represents the number of family members traveling with each passenger.
+After cleaning the data, the script calculates key statistics such as the average age and overall survival rate. It also performs grouped analyses to determine how survival rates differ by gender,
+class, and age. Several visualizations are created to demonstrate these results, including bar charts for survival counts, histograms showing the age distribution, violin plots for survival by age, and a heatmap displaying correlations between numerical features.
+The project also includes two Python classes designed to make the analysis more modular and reusable.
+The “Passenger” class represents an individual passenger and contains methods to check if a passenger is a child and to summarize basic information such as age, 
+class, and survival status. The “TitanicAnalyzer” class performs broader analyses on the dataset. It can calculate survival rates by category, generate summary statistics, and display plots and reports that summarize the findings.
+This project demonstrates how Python can be used for data analysis, statistical exploration, and data visualization. 
+It highlights the importance of data preprocessing and shows how object-oriented programming helps structure complex analysis tasks. The Titanic dataset is an excellent case study because it combines historical data, human behavior, and statistical analysis in one well-known example.
+Technologies used: Python, Pandas, NumPy, Seaborn, and Matplotlib
+To run the project, install the required libraries and execute the script in any Python environment. The results, statistics, and visualizations will appear directly in the console and as generated plots.
+
+Author: Homam Adler
