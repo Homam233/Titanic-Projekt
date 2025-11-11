@@ -208,7 +208,7 @@ if len(num_cols) > 1:
     plt.show()
 
 #Homam
-
+#Test
 # Überlebensrate berechnen
 
 def survival_rate2(df, name):
